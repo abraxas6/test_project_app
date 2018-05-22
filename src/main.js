@@ -1,3 +1,15 @@
-var kur = 5;
+const root = document.getElementById('root');
+let clickCount =0;
 
-// 15 mins !!!
+document.getElementById('button')
+    .addEventListener('click', () => {
+        setTimeout(() => {
+            const btn = document.createElement('button');
+            clickCount += 1;
+            btn.innerHTML = `Click ${clickCount}`;
+            root.appendChild(btn);
+        }, 1000);
+    });
+
+
+// 29:00
