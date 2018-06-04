@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/abraxas6/test_project_app/issues"
   },
-  "homepage": "https://github.com/abraxas6/test_project_app#readme"
+  "homepage": "https://github.com/abraxas6/test_project_app#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "systemjs": "^0.21.4",
+    "systemjs-plugin-babel": "0.0.25"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
 }
